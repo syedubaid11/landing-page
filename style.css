@@ -4,11 +4,13 @@
     margin:0px;
     font-family: 'Poppins', sans-serif;
 }
+body *{
+border: 2px solid red;
+}
 
 .header{
     font-size:24px;
     color:white;
-    justify-content:end;
 
 
 }
@@ -24,24 +26,31 @@
 
 
 .content{
+    display
     background-color: #1F2937;
+    padding:40px;
    
-    
-}
-
-.navigation{
-    display:flex;
-    width:50%;
-    flex-direction:row;
-
     
 }
 
 .signup-button{
+
     display:flex;
-    justify-content: flex-start;
+    justify-content: center;
+}
 
+.navigation{
+    display:flex;
+    flex-direction: row;
+    justify-content: end;
+
+}
+
+.below-header{
+    display:flex;
+    font-size:24px;
+    justify-content: center;
+    font-weight:bolder;
+    margin:30px;
     
-   
-
 }
