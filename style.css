@@ -1,0 +1,47 @@
+
+*{
+    padding:0px;
+    margin:0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header{
+    
+    display:flex;
+    flex:1;
+    font-size:24px;
+    color:white;
+    justify-content: end;
+
+
+}
+
+
+.section{
+    display:flex;
+    background-color: #1F2937;
+
+
+}
+
+.navigation{
+    flex-direction: row;
+    justify-content: flex-end;
+    
+}
+
+.content{
+    display:flex;
+    flex-direction:column;
+    background-color: #1F2937;
+   
+    
+}
+
+.navigation{
+    display:flex;
+    width:50%;
+
+    
+}
+
