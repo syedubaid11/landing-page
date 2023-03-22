@@ -6,12 +6,9 @@
 }
 
 .header{
-    
-    display:flex;
-    flex:1;
     font-size:24px;
     color:white;
-    justify-content: end;
+    justify-content:end;
 
 
 }
@@ -24,15 +21,9 @@
 
 }
 
-.navigation{
-    flex-direction: row;
-    justify-content: flex-end;
-    
-}
+
 
 .content{
-    display:flex;
-    flex-direction:column;
     background-color: #1F2937;
    
     
@@ -41,7 +32,16 @@
 .navigation{
     display:flex;
     width:50%;
+    flex-direction:row;
 
     
 }
 
+.signup-button{
+    display:flex;
+    justify-content: flex-start;
+
+    
+   
+
+}
