@@ -12,19 +12,21 @@ body *{
 
 
 .header{
+    display:flex;
     font-size:24px;
     color:white;
     height: 100%;
     width:100%;
-
+    
 }
 
 
 .section{
-    display:flex;
+    
     background-color: #1F2937;
     height: 100%;
     width:100%;
+    color:white;
 
 
 
@@ -54,13 +56,18 @@ body *{
 
 .navigation{
     display:flex;
-    flex-direction: row;
-    justify-content: end;
+    flex:1;
     height: 100%;
     width:100%;
+    justify-content: end;
+    
+
+    
 
 
 }
+
+
 
 .below-header{
     display:flex;
@@ -78,15 +85,17 @@ body *{
 
 
 .box{
-    
+    display:flex;
     height:100px;
     width:600px;
     margin:px;
     padding:40px;
     
     justify-content: center;
+    justify-content: space-around;
     height: 100%;
     width:100%;
+
 
 
 }
@@ -117,5 +126,10 @@ body *{
     height:100px;
     width:100px;
     margin:10px;
+    
+
+}
+
+.lower-part{
 
 }
