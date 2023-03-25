@@ -2,14 +2,18 @@
 *{
     padding:0px;
     margin:0px;
+    box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    
+    
+    
+    
 }
 
-body *{
-    border: 2px solid red;
-    
-    }
-
+body {
+    min-height: 100vh;
+    min-width: 100vh;
+}
 
 .header{
     display:flex;
@@ -18,41 +22,43 @@ body *{
     height: 100%;
     width:100%;
     
+    
+    
+}
+
+.Header-logo{
+    margin-left:50px;
+    
+    
 }
 
 
 .section{
-    margin:0px;
-    padding:0px;
+    
     background-color: #1F2937;
     height:100%;
     width:100%;
     color:white;
-    
-
-
+    padding:50px;
 }
 
 
 
 .content{
-    display
+    font-size:30px;
     background-color: #1F2937;
     padding:40px;
     height: 100%;
-    width:100%;
-
-   
-    
+    width:100%;   
 }
 
 .signup-button{
 
     display:flex;
+    
     justify-content: center;
     height: 100%;
     width:100%;
-
 }
 
 .navigation{
@@ -61,11 +67,6 @@ body *{
     height: 100%;
     width:100%;
     justify-content: end;
-    
-
-    
-
-
 }
 
 
@@ -77,9 +78,8 @@ body *{
     font-weight:bolder;
     margin:30px;
     height: 100%;
-    width:100%;
-
-
+    width:100%; 
+      
     
 }
 
@@ -87,72 +87,95 @@ body *{
 
 .box{
     display:flex;
-    height:100px;
+    height:600px;
     width:600px;
-    margin:px;
     padding:40px;
+    
     
     justify-content: center;
     justify-content: space-around;
     height: 100%;
     width:100%;
-
-
-
 }
 
 .box1{
     display:flex;
-    height:100px;
+    height:150px;
     width:100px;
     margin:10px;
-    
-    
-
+    margin-left:50px;
 }
 
 
 .box2{
     display:flex;
-    height:100px;
+    height:150px;
     width:100px;
     margin:10px;
-   
-    
-
 }
 
 .box3{
     display:flex;
-    height:100px;
+    height:150px;
     width:100px;
-    margin:50px;
-    
-
+    margin:10px;
+    margin-right:100px;
 }
 
-.lower-part{
+img{
+    border-radius:15%;
+    height:200px;
+    width:250px;
+}
+
+.quote{
     display:flex;
-    background-color: grey;
-    padding:70px;
+    font-size:25px;
+    background-color: #E5E7EB;
+    padding:150px;
     height:100%;
     width:100%;
-    
-
-
+    font-style:italic;
+    margin-top:100px;
 }
 
-.blue-part{
+.signup{
+    
+    margin-top:200px;
     display:flex;
-    background-color: #3882F6;
+    background-color: #3882f6;
+    padding:30px;
+    flex-wrap: wrap;   
+}
+
+.signup-content{
     font-size:20px;
-    flex-wrap:wrap;
-    margin:40px;
-    padding:40px;
-    height:100%;
-    width:100%
+    margin-left: 30px;
+}
+.signup-button{
+    margin-top: 15px;
+    border-radius: 20px;
     
+}
+.button{
+    font-size:17px;
+    background-color:white;
+    border:0px;
+    border-radius: 24px;
+    height: 30px;
+    width:80px;
+
+}
+
+.footer{
+    display:flex;
+    margin-top:300px;
+    height:100%;
+    width:100%;
+    padding:40px ;
+    background-color: #1F2937;
+    justify-content: center;
+    color:white; 
     
     
 }
-
