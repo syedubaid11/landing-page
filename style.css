@@ -67,6 +67,8 @@ body {
     height: 100%;
     width:100%;
     justify-content: end;
+    gap:10px;
+    
 }
 
 
